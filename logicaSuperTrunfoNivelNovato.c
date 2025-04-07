@@ -7,6 +7,9 @@
 
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
+    int pontoturistico2, pontoturistico1;
+    unsigned int populacao2, populacao1;
+    float area2, area1, pib2, pib1, densidadepopulacional1, densidadepopulacional2, pibpercapita1, pibpercapita2, superpoder1, superpoder2;
     // Você pode utilizar o código do primeiro desafio
 
     
