@@ -38,7 +38,7 @@ int main() {
 
     printf("Insira o PIB:\n");
     scanf("%f", &pib1);
-    
+
     getchar();
     printf("Vamos regristrar agora a segunda carta\n");
     
@@ -73,6 +73,36 @@ int main() {
     // scanf("%s", codigo);
     // 
     // (Repita para cada propriedade)
+    printf("Primeira carta registrada com sucesso\n");
+    printf("Estado: %s\n", nomeestado1);
+    printf("Código: %s\n", codigo1);
+    printf("Cidade:%s\n", nome1);
+    printf("População: %i\n", populacao1);
+    printf("Área: %2.f\n", area1);
+    printf("PIB: %2.f\n", pib1);
+    printf("Numero de Pontos Turisticos: %i\n", pontoturistico1);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional1);
+    printf("PIB per Capital:%.3f\n", pibpercapita1);
+
+    superpoder1 = populacao1 + area1 + pib1 + pontoturistico1 + pibpercapita1 + (1/densidadepopulacional1);
+    printf("Superpoder: %.2f\n", superpoder1);
+
+//repetindo o mesmo processo porém agora com para a segunda carta
+
+//print da segunda carta assim como a da primeira. 
+    printf("\nSegunda carta registrada com sucesso\n");
+    printf("Estado: %s\n", nomeestado2);
+    printf("Código: %s\n", codigo2);
+    printf("Cidade:%s\n", nome2);
+    printf("População: %i\n", populacao2);
+    printf("Área: %2.f\n", area2);
+    printf("PIB: %2.f\n", pib2);
+    printf("Numero de Pontos Turisticos: %i\n", pontoturistico2);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional2);
+    printf("PIB per Capital:%.3f\n", pibpercapita2);
+
+    superpoder2 = populacao2 + area2 + pib2 + pontoturistico2 + pibpercapita2 + (1/densidadepopulacional2);
+    printf("Superpoder: %.2f\n", superpoder2);
 
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
