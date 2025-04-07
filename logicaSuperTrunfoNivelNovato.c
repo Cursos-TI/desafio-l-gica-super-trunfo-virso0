@@ -108,11 +108,11 @@ int main() {
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
     if (superpoder1 > superpoder2) {
-        printf("\nA carta 1 %s venceu!", nome1);
+        printf("\nA carta 1 %s venceu!\n", nome1);
     } else if (superpoder2 > superpoder1) {
-        printf("\nA carta 2 %s venceu!", nome2);
+        printf("\nA carta 2 %s venceu!\n", nome2);
     } else {
-        printf("\nAs cartas empataram!");
+        printf("\nAs cartas empataram!\n");
     }
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
