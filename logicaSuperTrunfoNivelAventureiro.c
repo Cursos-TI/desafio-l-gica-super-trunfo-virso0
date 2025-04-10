@@ -114,7 +114,57 @@ int main() {
     scanf("%i", &escolha);
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
-
+    switch (escolha)
+    {
+    case 1:
+        if (populacao1 > populacao2) {
+            printf("Na comparação de população entre %s e %s , %s venceu!\n", nome1, nome2, nome1);
+        } else if (populacao1 == populacao2) {
+            printf("Empatado!\n");
+        } else {
+            printf("Na comparação de população entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+        }
+        break;
+    case 2:
+        if (area1 > area2) {
+            printf("Na comparação de área entre %s e %s , %s venceu!\n", nome1, nome2, nome1);
+        } else if (area1 == area2) {
+            printf("Empatado!\n"); 
+        } else {
+            printf("Na comparação de área entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+        }
+        break;
+    case 3:
+        if (pib1 > pib2) {
+            printf("Na comparação de PIB entre %s e %s , %s venceu!\n", nome1, nome2, nome1);
+        } else if (pib1==pib2){
+            printf("Empatado!");
+        } else {
+            printf("Na comparação de PIB entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+        }
+        break;
+    case 4:
+        if (pontoturistico1 > pontoturistico2) {
+            printf("Na comparação de ponto turístico entre %s e %s , %s venceu!\n", nome1, nome2, nome1); 
+        } else if (pontoturistico1==pontoturistico2){
+            printf("Empatado!");
+        } else {
+            printf("Na comparação de população entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+        }
+        break;
+    case 5:
+        if (densidadepopulacional1 < densidadepopulacional2) {
+            printf("Na comparação densidade populacional entre %s e %s , %s venceu!\n", nome1, nome2, nome1); 
+        } else if (densidadepopulacional1==densidadepopulacional2){
+            printf("Empatado!");
+        } else {
+            printf("Na comparação de densidade populacional entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+        }
+        break;
+    default:
+    printf("Opção invalida!");
+        break;
+    }
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
