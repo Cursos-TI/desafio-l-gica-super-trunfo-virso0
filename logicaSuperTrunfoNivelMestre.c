@@ -125,53 +125,63 @@ int main() {
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
     switch (escolha1)
     {
-    case 1:
+        case 1:
         if (populacao1 > populacao2) {
-            printf("Na comparação de população entre %s e %s , %s venceu!\n", nome1, nome2, nome1);
+            printf("\nNa comparação de população entre %s e %s , %s venceu!\n", nome1, nome2, nome1);
+            ponto1++;
         } else if (populacao1 == populacao2) {
-            printf("Empatado!\n");
+            printf("\nEmpatado!\n");
         } else {
-            printf("Na comparação de população entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+            printf("\nNa comparação de população entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+            ponto2++;
         }
         break;
     case 2:
         if (area1 > area2) {
-            printf("Na comparação de área entre %s e %s , %s venceu!\n", nome1, nome2, nome1);
+            printf("\nNa comparação de área entre %s e %s , %s venceu!\n", nome1, nome2, nome1);
+            ponto1++;
         } else if (area1 == area2) {
-            printf("Empatado!\n"); 
+            printf("\nEmpatado!\n"); 
         } else {
-            printf("Na comparação de área entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+            printf("\nNa comparação de área entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+            ponto2++;
         }
         break;
     case 3:
         if (pib1 > pib2) {
-            printf("Na comparação de PIB entre %s e %s , %s venceu!\n", nome1, nome2, nome1);
+            printf("\nNa comparação de PIB entre %s e %s , %s venceu!\n", nome1, nome2, nome1);
+            ponto1++;
         } else if (pib1==pib2){
-            printf("Empatado!");
+            printf("\nEmpatado!");
         } else {
-            printf("Na comparação de PIB entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+            printf("\nNa comparação de PIB entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+            ponto2++;
         }
         break;
     case 4:
         if (pontoturistico1 > pontoturistico2) {
-            printf("Na comparação de ponto turístico entre %s e %s , %s venceu!\n", nome1, nome2, nome1); 
+            printf("\nNa comparação de ponto turístico entre %s e %s , %s venceu!\n", nome1, nome2, nome1); 
+            ponto1++;
         } else if (pontoturistico1==pontoturistico2){
-            printf("Empatado!");
+            printf("\nEmpatado!");
         } else {
-            printf("Na comparação de população entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+            printf("\nNa comparação de população entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+            ponto2++;
         }
         break;
     case 5:
         if (densidadepopulacional1 < densidadepopulacional2) {
-            printf("Na comparação densidade populacional entre %s e %s , %s venceu!\n", nome1, nome2, nome1); 
+            printf("\nNa comparação densidade populacional entre %s e %s , %s venceu!\n", nome1, nome2, nome1); 
+            ponto1++;
         } else if (densidadepopulacional1==densidadepopulacional2){
-            printf("Empatado!");
+            printf("\nEmpatado!");
         } else {
-            printf("Na comparação de densidade populacional entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+            printf("\nNa comparação de densidade populacional entre %s e %s , %s venceu!\n", nome1, nome2, nome2);
+            ponto2++;
         }
         break;
     default:
-    printf("Opção invalida!");
+    printf("\nOpção invalida!");
         break;
     }
     // Exibição dos Resultados:
