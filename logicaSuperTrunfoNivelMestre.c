@@ -104,7 +104,7 @@ int main() {
     printf("Superpoder: %.2f\n", superpoder2);
 
     // Comparação de Cartas:
-    printf("Escolha qual atributo de comparação será utilizada entre as cartas!\n");
+    printf("Escolha qual será o 1 atributo de comparação entre as cartas!\n");
     printf("1.População\n");
     printf("2.Área\n");
     printf("3.PIB\n");
