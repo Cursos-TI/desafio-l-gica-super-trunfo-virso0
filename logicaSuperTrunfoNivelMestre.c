@@ -7,7 +7,7 @@
 
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
-    int pontoturistico2, pontoturistico1, escolha1, escolha2;
+    int pontoturistico2, pontoturistico1, escolha1, escolha2, ponto1 = 0, ponto2 = 0;
     unsigned int populacao2, populacao1;
     float area2, area1, pib2, pib1, densidadepopulacional1, densidadepopulacional2, pibpercapita1, pibpercapita2, superpoder1, superpoder2;
     char nome2[50], nome1[50], nomeestado1[50], nomeestado2[50], codigo1[50], codigo2[50];
