@@ -249,7 +249,14 @@ int main() {
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
-
+    printf("\nO resultado final é:\n");
+    if (ponto1 > ponto2) {
+        printf("A %s venceu!\n", nome1);
+    } else if (ponto1 < ponto2) {
+        printf("A %s venceu!\n", nome2);
+    } else {
+        printf("As cartas empataram!\n");
+    }
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
