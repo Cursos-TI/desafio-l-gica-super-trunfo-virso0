@@ -111,6 +111,14 @@ int main() {
     printf("4.Número de pontos turísticos\n");
     printf("5. Densidade demográfica\n");
     scanf("%i", &escolha1);
+
+    printf("Escolha qual será o 2 atributo da comparação entre as cartas!\n");
+    if (escolha1 != 1) printf("1.População\n");
+    if (escolha1 != 2) printf("2.Área\n");
+    if (escolha1 != 3) printf("3.PIB\n");
+    if (escolha1 != 4) printf("4.Ponto Turistico\n");
+    if (escolha1 != 5) printf("5.Densidade populacional\n");
+    scanf("%i", &escolha2);
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
     switch (escolha1)
