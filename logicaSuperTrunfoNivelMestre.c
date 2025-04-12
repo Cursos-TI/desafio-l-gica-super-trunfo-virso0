@@ -7,7 +7,7 @@
 
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
-    int pontoturistico2, pontoturistico1, escolha;
+    int pontoturistico2, pontoturistico1, escolha1, escolha2;
     unsigned int populacao2, populacao1;
     float area2, area1, pib2, pib1, densidadepopulacional1, densidadepopulacional2, pibpercapita1, pibpercapita2, superpoder1, superpoder2;
     char nome2[50], nome1[50], nomeestado1[50], nomeestado2[50], codigo1[50], codigo2[50];
@@ -100,7 +100,6 @@ int main() {
     printf("Numero de Pontos Turisticos: %i\n", pontoturistico2);
     printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional2);
     printf("PIB per Capital:%.3f\n", pibpercapita2);
-
     superpoder2 = populacao2 + area2 + pib2 + pontoturistico2 + pibpercapita2 + (1/densidadepopulacional2);
     printf("Superpoder: %.2f\n", superpoder2);
 
@@ -111,10 +110,10 @@ int main() {
     printf("3.PIB\n");
     printf("4.Número de pontos turísticos\n");
     printf("5. Densidade demográfica\n");
-    scanf("%i", &escolha);
+    scanf("%i", &escolha1);
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
-    switch (escolha)
+    switch (escolha1)
     {
     case 1:
         if (populacao1 > populacao2) {
