@@ -70,6 +70,7 @@ No nível Mestre, o desafio se intensifica com a adição de funcionalidades ava
 ---
 
 **📋 Instruções de uso:**
+
 1.Insira o nome do estado, pode conter espaço mas de preferência sem acento.
 
 2.Códigos são mais livres, mas podem ser as siglas do estados acompanhados de números; RN001, RJ003, SP002
@@ -99,16 +100,17 @@ No nível Mestre, o desafio se intensifica com a adição de funcionalidades ava
 11.Veja o resultado e quem venceu o confontro entre as duas cartas.
 
 **Exemplo final de carta:**
-Estado: Paraiba
-Código: PB001
-Cidade:Campina Grande
-População: 414000
-Área: 621
-PIB: 13201
-Numero de Pontos Turisticos: 50
-Densidade Populacional: 667.06 hab/km²
-PIB per Capital:0.032
-Superpoder: 427871.41
+  
+  Estado: Paraiba
+  Código: PB001
+  Cidade:Campina Grande
+  População: 414000
+  Área: 621
+  PIB: 13201
+  Numero de Pontos Turisticos: 50
+  Densidade Populacional: 667.06 hab/km²
+  PIB per Capital:0.032
+  Superpoder: 427871.41
 
 Boa sorte no desenvolvimento deste desafio e aproveite para aprender e se divertir enquanto progride pelos níveis!
 
