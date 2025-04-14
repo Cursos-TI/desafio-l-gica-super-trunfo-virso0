@@ -69,6 +69,36 @@ No nível Mestre, o desafio se intensifica com a adição de funcionalidades ava
 
 ---
 
+**📋 Instruções de uso:**
+1.Insira o nome do estado, pode conter espaço mas de preferência sem acento.
+2.Códigos são mais livres, mas podem ser as siglas do estados acompanhados de números; RN001, RJ003, SP002
+3.Insira o nome da cidade, pode conter espaço mas de preferência sem acento.
+4.Insira o número inteiro da população; 817511, 414000
+5.Insira o número inteiro de pontos turisticos; 80, 50
+6.Insira um número não inteiro da área; 620.63, 211.48, 1200.27
+7.Insira um número não inteiro no PIB; 190000.75, 230000.50, 25000.90
+8.Insira os mesmos dados da mesma forma mas desta vez para a criação da segunda carta.
+9.Após o registro da segunda carta, selecione o primeiro atributo de comparação: 
+1 para População
+2 para Área
+3 para PIB
+4 para Número de pontos turísticos
+5 para Densidade demográfica
+10.Após isto, selecione o segundo atributo de comparação.
+11.Veja o resultado e quem venceu o confontro entre as duas cartas.
+
+**Exemplo final de carta:**
+Estado: Paraiba
+Código: PB001
+Cidade:Campina Grande
+População: 414000
+Área: 621
+PIB: 13201
+Numero de Pontos Turisticos: 50
+Densidade Populacional: 667.06 hab/km²
+PIB per Capital:0.032
+Superpoder: 427871.41
+
 Boa sorte no desenvolvimento deste desafio e aproveite para aprender e se divertir enquanto progride pelos níveis!
 
 Equipe de Ensino - MateCheck
