@@ -101,16 +101,25 @@ No nível Mestre, o desafio se intensifica com a adição de funcionalidades ava
 
 **Exemplo final de carta:**
   
-  Estado: Paraiba
-  Código: PB001
-  Cidade:Campina Grande
-  População: 414000
-  Área: 621
-  PIB: 13201
-  Numero de Pontos Turisticos: 50
-  Densidade Populacional: 667.06 hab/km²
-  PIB per Capital:0.032
-  Superpoder: 427871.41
+Estado: Paraiba
+
+Código: PB001
+
+Cidade:Campina Grande
+
+População: 414000
+
+Área: 621
+
+PIB: 13201
+
+Numero de Pontos Turisticos: 50
+
+Densidade Populacional: 667.06 hab/km²
+
+PIB per Capital:0.032
+
+Superpoder: 427871.41
 
 Boa sorte no desenvolvimento deste desafio e aproveite para aprender e se divertir enquanto progride pelos níveis!
 
